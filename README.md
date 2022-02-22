@@ -13,3 +13,18 @@ In the present era when on one hand both husbands and wives have to work to main
 # ** Applications**
 
 The invention of the washing machine has helped reduce the manual labor spent on the cleaning of the clothes either domestically or commercially. They additionally save time used in the cleaning of clothes and saves water consumption as compared to manual washing.
+## Components Used 
+Microcontroller AT
+
+Drain Pipe
+
+Printed Circuit Boared
+
+Water Inlet  valve
+
+Motor
+Timer
+
+Control Panel
+
+Heating Element
