@@ -18,7 +18,8 @@ The main principle of this circuit is to control appliances like light and fan u
 -   Resistors – R1, R2 and R3
 -   Capacitors – C1, C2, C3 and C4
 -   Crystal Oscillator X1
-![WhatsApp Image 2022-02-22 at 5 15 17 PM](https://user-images.githubusercontent.com/98877997/155126036-69a7ef1b-03fc-4c0f-b7fb-ed999cce1ca1.jpeg)
+-   ## Circuit Diagram
+![WhatsApp Image 2022-02-24 at 1 16 08 PM (1)](https://user-images.githubusercontent.com/98878562/155481362-81ccc1cd-d463-4d6b-999d-ad189e2049f6.jpeg)
 ## Advantages of DTMF Controlled Home Automation System Circuit
 -   One can control home appliances from anywhere.
 -   It reduces wastage of electricity when we forgot to switch off the lights & fans and gone outside.
