@@ -49,9 +49,9 @@ The circuit board is responsible for ensuring that the machine carries out all t
 
 ##  Control Panel
 Washing machine has three main settings: agitation, length, and temperature. These are the main features your machine has which allow you to tailor your wash to the fabrics you’re cleaning.
-  -Setting Agitation
-  -setting Length
-  -Setting Tmperature
-  -Digital display
-  -time Dealy
-  -Load Detection
+  - Setting Agitation
+  - setting Length
+  - Setting Tmperature
+  - Digital display
+  - time Dealy
+  - Load Detection
