@@ -26,12 +26,11 @@ It is used to know in which mode should machine work for example cotton mode or 
 ## Microcontroller
 Microcontroller   AT89S51 is used to control the process of washimg machine cycle to drive the external output devices such as Water inlet valve, water drain valve etc.
 
-#  Timer- The timer sets the time according to task by selecting different Operation to perform taht task like Washing ,Drying etc
+## Timer 
+The timer sets the time according to task by selecting different Operation to perform taht task like Washing ,Drying etc
 
-#  Printed Circuit Boared
+## Printed Circuit Boared
 
-#  Water Inlet  valve
+##  Water Inlet  valve
 
-#  Control Panel
-
-
+##  Control Panel
