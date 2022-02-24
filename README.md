@@ -10,7 +10,7 @@ In the present era when on one hand both husbands and wives have to work to main
 
     Resume washing cycle from the state 
 
-# ** Applications**
+## Applications
 
 The invention of the washing machine has helped reduce the manual labor spent on the cleaning of the clothes either domestically or commercially. They additionally save time used in the cleaning of clothes and saves water consumption as compared to manual washing.
 ## Components Used 
@@ -27,13 +27,12 @@ It is used to know in which mode should machine work for example cotton mode or 
 ## Microcontroller
 Microcontroller   AT89S51 is used to control the process of washimg machine cycle to drive the external output devices such as Water inlet valve, water drain valve etc.
 
+#  Timer- The timer sets the time according to task by selecting different Operation to perform taht task like Washing ,Drying etc
 
-Printed Circuit Boared
+#  Printed Circuit Boared
 
-Water Inlet  valve
+#  Water Inlet  valve
 
-Timer
+#  Control Panel
 
-Control Panel
 
-Heating Element
