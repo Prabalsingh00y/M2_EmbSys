@@ -12,9 +12,24 @@ In the present era when on one hand Manu people have to work to maintain certain
 ## Applications
 
 The invention of the washing machine has helped reduce the manual labor spent on the cleaning of the clothes either domestically or commercially. They additionally save time used in the cleaning of clothes and saves water consumption as compared to manual washing.
+
+## High Level Requirement
+|ID|Description|
+|:--:|:--:|
+|HLR01|User able to control the different task like washing ,Drying and Rinse|
+|HLR02| AT89S51 Microcontroller is uesd to to control different task|
+|HLR03|Controller checks for input and produces the external  output|
+## Low Level Requirement
+|ID|Description|
+|:--:|:--:|
+|LLR01|User able to give input| |
+|LLR02|User able to select the operation|
+|LLR03|System able perform the given operationselected by user|
+
+
 ## Components Used 
 
-#  Powersupply
+## Powersupply
 In the power supply step down transformer is used to reduce the necessary voltage for the contro unit and other components.
 
 ## Motor Driver
@@ -30,7 +45,13 @@ Microcontroller   AT89S51 is used to control the process of washimg machine cycl
 The timer sets the time according to task by selecting different Operation to perform taht task like Washing ,Drying etc
 
 ## Printed Circuit Boared
-
-##  Water Inlet  valve
+The circuit board is responsible for ensuring that the machine carries out all the washing functions correctly, and it also commonly times the functions.
 
 ##  Control Panel
+Washing machine has three main settings: agitation, length, and temperature. These are the main features your machine has which allow you to tailor your wash to the fabrics you’re cleaning.
+  -Setting Agitation
+  -setting Length
+  -Setting Tmperature
+  -Digital display
+  -time Dealy
+  -Load Detection
