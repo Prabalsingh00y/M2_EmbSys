@@ -16,6 +16,7 @@ A temperature sensor is a device, typically, a thermocouple or resistance temper
   - ATMEGA 32 Microcontroller
   - LCD16x2 Display
   - LM35 Temperature Sensor
+  ## Lets describe each component below
  ## ATMEGA 32 Microcontroller
  In this project, we will learn How to interface a LM35 temperature sensor with AVR ATmega32 microcontroller and LED display. Here, we will measure the temperature of the surrounding or any other material to which the LM35 temperature sensor is connected for its temperature measurement and we will display the temperature value in degree centigrade in 1X8 LED array. But, the output of LM35 temperature sensor is analog in nature and microcontroller cannot process the analog signal directly. So, first it will convert the analog output of LM35 temperature sensor to digital values using its analog to digital converter and then it process the digital value to convert the digital value in degree centigrade value. Then the microcontroller will display the temperature in degree centigrade in the 1X8 LED array. Now, lit a match stick or lighter near the LM35 temperature sensor and see the changes in its output value in the 1X8 LED array.
  ## LCD16x2 Display
