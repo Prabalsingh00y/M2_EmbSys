@@ -1,6 +1,6 @@
-# Digital Clock with Alarm
+# Sensing Temperature Using AVR
 ## Folder Structure
-|Folder|Description|
+|Table of Content|Description|
 |:-:|:--:|
 |0_Requirement|Documents detailing requirements and research|
 |1_Architecture|Documents specifying design details|
