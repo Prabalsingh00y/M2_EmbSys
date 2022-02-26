@@ -16,9 +16,14 @@ Temperature is the number assigned to an object to indicate its warmth. The conc
   - It can easily be interfaced with any Microcontroller that has ADC function or any development platform like Arduino.
   - Power the IC by applying a regulated voltage like +5V (VS) to the input pin and connected the ground pin to the ground of the circuit.
   - If the temperature is 0°C, then the output voltage will also be 0V. There will be rise of 0.01V (10mV) for every degree  Celsius rise  in temperature.  The voltage can converted  into temperature  
-## Purpose
+## Components
+  - Atmega32 Microcontroller
+  - LCD16x2 Display
+  - LM35 Temperature Sensor
+ 
+ 
 
-
+## References
 |S.No.|Links|
 |:-:|:--:|
 |1|[]()|
