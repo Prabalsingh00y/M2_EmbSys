@@ -1,8 +1,4 @@
 # Digital Clock with Alarm
-## Introduction
-
-## Purpose
-
 ## Folder Structure
 |Folder|Description|
 |:-:|:--:|
@@ -12,7 +8,11 @@
 |3_TestPlanAndOutput|Documents with test plans and procedures|
 |4_Report|Attach Report with all the scope of work|
 |5_ImagesAndVideos|All images related to the programming|
-## References
+## Introduction
+
+## Purpose
+
+
 |S.No.|Links|
 |:-:|:--:|
 |1|[]()|
