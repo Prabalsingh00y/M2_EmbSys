@@ -32,6 +32,8 @@ A temperature sensor is a device, typically, a thermocouple or resistance temper
 -   VCC: Supply Voltage (4V – 30V)
 -   Out: It gives analog output voltage which is proportional to the temperature (in degree Celsius).
 -   GND: Ground
+ ## Circuit Diagram
+![ATmega16 LM35 Interface](https://user-images.githubusercontent.com/98877997/155834375-372f961a-6834-4faa-831c-3699c88823ee.png)
    
  
 
