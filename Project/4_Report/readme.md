@@ -12,12 +12,6 @@
 Temperature is the number assigned to an object to indicate its warmth. The concept of temperature came about because people wanted to quantify and measure differences in warmth. When an object with a higher temperature comes in contact with a cooler object, a transfer of heat occurs until the two objects are the same temperature. When the heat transfer is complete, it can be said that that the two objects are in thermal equilibrium. Temperature can hence be defined as the quantity of warmth that is the same for two or more objects that are in thermal equilibrium. The temperature 0°C, 273.16 K (kelvin), is the point at which ice, water, and water vapor are all present and in thermal equilibrium.  During the invention of this thermometer some facts were not in place which lead to their disadvantages and with the aid of technology advancement digital thermometer came into existence. Digital thermometer brings together the likes of microcontroller to be interfaced with Lm35 temperature sensor all together working with an embedded C programming language. In advancement in technology, digital thermometer can be added to home automation utilizes, IOT service for medical records, industrial jobs and many more.
 ## Introduction
 A temperature sensor is a device, typically, a thermocouple or resistance temperature detector, that provides temperature measurement in a readable form through an electrical signal.A thermometer is the most basic form of a temperature meter that is used to measure the degree of hotness and coolness.Temperature meters are used in the geotechnical field to monitor concrete, structures, soil, water, bridges etc. for structural changes in them due to seasonal variations.A thermocouple (T/C) is made from two dissimilar metals that generate an electrical voltage in direct proportion with the change in temperature. An RTD (Resistance Temperature Detector) is a variable resistor that changes its electrical resistance in direct proportion with the change in the temperature in a precise, repeatable and nearly linear manner.
-
-  - LM35 is a precession Integrated circuit Temperature sensor, whose output voltage varies, based  on the temperature around it.
-  - It  is a  small and  cheap IC which can  be used to measure temperature anywhere between -55°C to 150°C.
-  - It can easily be interfaced with any Microcontroller that has ADC function or any development platform like Arduino.
-  - Power the IC by applying a regulated voltage like +5V (VS) to the input pin and connected the ground pin to the ground of the circuit.
-  - If the temperature is 0°C, then the output voltage will also be 0V. There will be rise of 0.01V (10mV) for every degree  Celsius rise  in temperature.  The voltage can converted  into temperature  
 ## Components
   - ATMEGA 32 Microcontroller
   - LCD16x2 Display
@@ -28,6 +22,11 @@ A temperature sensor is a device, typically, a thermocouple or resistance temper
  A 16x2 LCD means it can display 16 characters per line and there are 2 such lines. In this LCD each character is displayed in 5x7 pixel matrix. The 16 x 2 intelligent alphanumeric dot matrix display is capable of displaying 224 different characters and symbols. This LCD has two registers, namely, Command and Data.It displays the temperature 
  ## Sensor
    # LM35-
+   LM35 is a temperature sensor that can measure temperature in the range of -55°C to 150°C.
+-   It is a 3-terminal device that provides an analog voltage proportional to the temperature. The higher the temperature, the higher is the output voltage.
+-   The output analog voltage can be converted to digital form using ADC so that a microcontroller can process it.
+-   LM35 is a precession Integrated circuit Temperature sensor, whose output voltage varies, based  on the temperature around it.
+-   
    ## Pin Description
 ![LM35 Pinout](https://user-images.githubusercontent.com/98877997/155834037-37e7b047-84a7-40e5-8b96-161c9b48a0bb.png)
 -   VCC: Supply Voltage (4V – 30V)
