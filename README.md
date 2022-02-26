@@ -1,6 +1,6 @@
 # M2-EmbSys
 ## Project
--   LM35 Temperature Sensor
+# Temperature Sensor LM35 Interfacing with AVR 
 ## Case Study
 -   Washing Machine 
 
