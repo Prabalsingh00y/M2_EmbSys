@@ -64,6 +64,23 @@ The voltage across the diode terminals is the primary working mechanism of tempe
 -   To give input to system.
 -   To add an account of the user 
 -   To get the details of the customer to perform several functions.
+-   ## SWOT Analysis
+|Strength|Weakness|Opportunities|Threats|
+|:--:|:--:|:--:|:--:|
+|||||
+|||||
+|||||
+|||||
+|||||
+## 4W's 1-H
+## What-
+## Where-
+## Who-
+## When-
+## Why-
+## How-
+
+
 ## References
 |S.No.|Links|
 |:-:|:--:|
