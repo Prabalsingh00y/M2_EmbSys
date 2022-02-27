@@ -50,9 +50,20 @@ The voltage across the diode terminals is the primary working mechanism of tempe
 -   GND: Ground
  ## Circuit Diagram
 ![ATmega16 LM35 Interface](https://user-images.githubusercontent.com/98877997/155834375-372f961a-6834-4faa-831c-3699c88823ee.png)
+## Block Diagram
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/98878562/155874806-6dd44e95-01c5-4ac5-b6a8-cb6d2240f1aa.jpg)
+
    
  
-
+## High Level Requirement
+-   To view list of functions.
+-   To select the operation which user want to perform in their account.
+-   To perform the selected operation that the user had choosen.
+-   To get the required result by system  as per the user.
+## Low Level Requirement
+-   To give input to system.
+-   To add an account of the user 
+-   To get the details of the customer to perform several functions.
 ## References
 |S.No.|Links|
 |:-:|:--:|
