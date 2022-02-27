@@ -1,4 +1,4 @@
-# Temperature Sensor LM35 Interfacing with AVR 
+# Temperature Sensor Interfacing with AVR 
 ## Folder Structure
 |Table of Content|Description|
 |:-:|:--:|
