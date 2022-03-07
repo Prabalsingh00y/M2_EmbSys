@@ -8,4 +8,4 @@ A temperature sensor is a device, typically, a thermocouple or resistance temper
 ## Low Level Requirement
 -   To give input to system.
 -   To add an account of the user 
--   To get the details of the customer to perform several functions.
+-   
