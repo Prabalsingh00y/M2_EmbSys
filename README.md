@@ -1,6 +1,6 @@
 # M2-EmbSys
 ## Project
- - Temperature Sensor Interfacing with AVR 
+ - Seat Heating control
 ## Case Study
 -   Washing Machine 
 
