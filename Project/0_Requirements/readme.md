@@ -21,13 +21,20 @@ The Seat heating method is commonly used to control the temperature. A heating e
   - ATmega328 is an Advanced Virtual RISC (AVR) microcontroller. It supports 8-bit data processing. ATmega-328 has 32KB internal flash memory. Atmel's ATmega328 is a single-chip microcontroller that belongs to the megaAVR series. It is powered by an 8-bit Atmel AVR CPU and has flash memory and a variety of peripherals. The controllers can work on their own after programming, as long as they have electricity and a quartz crystal with a high clock speed.
 ### Pin Diagram
 ![Screenshot (356)](https://user-images.githubusercontent.com/98878562/157198470-22759cb3-7292-44e4-b810-27f7497f9fc0.png)
-
-- LCD ( liquid crystal display)
-- LED (Light-emitting diode) 
-- Heater core
-- Thermostat
- 
-
+## Temperature Sensor
+ - A temperature sensor is a device that measures the temperature of an object. This can be the temperature of the air, the temperature of a liquid, or the temperature of a solid. Temperature sensors come in a variety of shapes and sizes, and they all monitor temperature using different technologies and principles.
+- The coolness or hotness of an entity is measured by the temperature sensor. The voltage read across the diode is what makes the sensor work. When the voltage is increased, the temperature rises and the voltage between the emitter and base transistor terminals decreases. The sensor saves that information.
+The device generates an analogue signal that is directly proportional to the temperature if the difference in voltage is amplified.
+## Thermostat
+ -  A thermostat sensor is a component in central AC systems that is designed to measure the ambient air temperature. It works in conjunction with a thermostat to provide control over your temperature and it is a regulating device component which senses the temperature of a physical system and performs actions so that the system's temperature is maintained near a desired setpoint.T.
+ -   - To maintain the proper temperature, a thermostat switches heating or cooling devices on or off, or regulates the flow of a heat transfer fluid as needed. In applications ranging from ambient air management to automobile coolant control, a thermostat is frequently the primary control device for a heating or cooling system. Any device or system that heats or cools to a setpoint temperature uses a thermostat.his device to detect temperature changes for the purpose of maintaining the temperature of an enclosed area essentially constant.
+ - To maintain the proper temperature, a thermostat switches heating or cooling devices on or off, or regulates the flow of a heat transfer fluid as needed. In applications ranging from ambient air management to automobile coolant control, a thermostat is frequently the primary control device for a heating or cooling system. Any device or system that heats or cools to a setpoint temperature uses a thermostat.
+ ## Heater core
+ A heater core is a radiator-like device used to heat a vehicle's cabin. Hot coolant from the vehicle's engine is routed through the core's winding tube, which acts as a heat exchanger between the coolant and the cabin air. Fins attached to the core tubes increase the surface area for heat transfer to air forced past them by a fan, thus heating the passenger compartment. Device may use a heater core , where different amounts of coolant flow through the heater core on either side to obtain the desired heating.
+## LCD ( liquid crystal display)
+Liquid Crystal Display (LCD) is an electronic device, which is frequently used in many applications for displaying the information in a text or image format. It is a type of flat panel display which uses liquid crystals in its primary form of operation. LEDs have a large and varying set of use cases for consumers and businesses
+## LED (Light-emitting diode) 
+The lighting emitting diode is a p-n junction diode. It is a specially doped diode and made up of a special type of semiconductors. When the light emits in the forward biased, then it is called a light-emitting diode.
 # **Research:**
 
 Seat warmers were first introduced by Cadillac in 1966 to help with backaches. Some vehicles come with car seat warmers, which heat up the seat with the push of a button. Normally the buttons are located on the side of the driver and passenger door. In some vehicles, just the bottom of the seat warms up, where in others both the bottom and back warm up.
