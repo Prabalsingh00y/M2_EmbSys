@@ -1,3 +1,2 @@
 ## BLOCK DIAGRAM
-![B D](https://user-images.githubusercontent.com/98878562/157106338-928360eb-8f3c-409a-a86a-1c54d9421026.jpg)
-
+![Untitled Diagram (3)](https://user-images.githubusercontent.com/98878562/157228565-8aa43daf-920b-4cda-893a-50ee28c9dedf.jpg)
