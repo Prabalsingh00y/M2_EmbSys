@@ -72,7 +72,7 @@ The longer the seat cushion is in place, the hotter it becomes. If it was left o
 - When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
 - Next the analog input from the temperature sensor is received and digitized.
 - The digitized temperature input is visualized using Pulse Width Modulation.
-- The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.
+- The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol.Here the data is displayed on the serial monitor.
 ## Benefits
  -  Seats that employ a single component to heat and cool the seat are a novel feature. Because of the system's intricacy, all functions are computer controlled. This implies that diagnostics and repairs are more comprehensive. This, however, implies that DTCs may be set if there are any faults. To get these error codes and identify any problems, a scan tool will be necessary.
  -  Heated seats may make automobiles much more pleasant in the winter or for individuals who get chilly easily even in the summer. Most vehicles' heaters work well, but the seat warmer in the car is closer to your body, allowing you to warm up faster. In rare circumstances, the seat warms up faster than the rest of the car.
