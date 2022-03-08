@@ -2,18 +2,17 @@ PROJ_NAME = SeatHeating
 
 BUILD_DIR = Build
 
-# All Source code files
 SRC = src/MAIN.c\
 src/CASE_1.c\
 src/CASE_2.c\
 src/CASE_3.c\
 src/CASE_4.c\
 
+TEST_SR=Unity/unity.c\
 
-#Object copy to create hexfile
+
 OBJCOPY = avr-objcopy.exe
 
-#Avrdude
 AVRDUDE := avrdude
 
 #Options for HEX file generation
@@ -22,11 +21,9 @@ HFLAGS = -j .text -j .data -O ihex
 # All header file paths
 INC = -I inc
 
-# Find out the OS and configure the variables accordingly
-ifdef OS	# All configurations for Windwos OS
-   # Delete command 
+
+ifdef OS	
    RM = del /q
-   # Correct the path based on OS
    FixPath = $(subst /,\,$1)
    # Name of the compiler used
    CC = avr-gcc.exe
@@ -34,7 +31,6 @@ ifdef OS	# All configurations for Windwos OS
    AVR_OBJ_CPY = avr-objcopy.exe
 else #All configurations for Linux OS
    ifeq ($(shell uname), Linux)
-   	  # Delete command
       RM = rm -rf				
 	  # Correct the path based on OS
       FixPath = $1				
@@ -45,7 +41,6 @@ else #All configurations for Linux OS
    endif
 endif
 
-# Command to make to consider these names as targets and not as file names in folder
 .PHONY:all analysis clean doc
 
 all:$(BUILD_DIR)
