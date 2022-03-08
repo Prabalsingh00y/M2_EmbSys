@@ -16,6 +16,16 @@ The Seat heating method is commonly used to control the temperature. A heating e
 | LLR2 | Examine that power supply is running through system  |
 | LLR3 | Check the temperature is  display on the the serial monitor.| 
 | LLR4 | Check all functions working properly in system.| 
+## Components used
+### ATMEGA 328-
+  - ATmega328 is an Advanced Virtual RISC (AVR) microcontroller. It supports 8-bit data processing. ATmega-328 has 32KB internal flash memory. Atmel's ATmega328 is a single-chip microcontroller that belongs to the megaAVR series. It is powered by an 8-bit Atmel AVR CPU and has flash memory and a variety of peripherals. The controllers can work on their own after programming, as long as they have electricity and a quartz crystal with a high clock speed.
+### Pin Diagram
+![Screenshot (356)](https://user-images.githubusercontent.com/98878562/157198470-22759cb3-7292-44e4-b810-27f7497f9fc0.png)
+
+- LCD ( liquid crystal display)
+- LED (Light-emitting diode) 
+- Heater core
+- Thermostat
  
 
 # **Research:**
@@ -28,13 +38,6 @@ Seat warmers were first introduced by Cadillac in 1966 to help with backaches. S
 
 Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car’s seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
 
-## Components used
-- ATMEGA 328
-- Temperature Sensors
-- LCD ( liquid crystal display)
-- LED (Light-emitting diode) 
-- Heater core
-- Thermostat
 
 ## Software used
 
