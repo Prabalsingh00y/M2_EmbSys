@@ -2,9 +2,27 @@
 A heating system is a device that uses thermal energy to keep temperatures at a comfortable level in places such as cars,homes etc. It aids the system in raising the temperature of an enclosed room with the primary goal of assuring the occupants' comfort. The Seat Heating Control System regulates the temperature of an automobile seat. The button sensor is activated when a passenger or the driver of the car sits in the car seat (which acts as one switch). The user must next turn on the heater (which is known as the recirculation button and plays a vital function in the heat.The temperature sensors work by sensing the temperature emitted by the thermostat and/or the coolant, as well as monitoring and recording the temperature and sending the analogue value to the ATmega328 microcontroller. The temperature sensor's analogue input is fed into the microcontroller, which outputs a temperature reading via USART.
 ## Introduction:
 The Seat heating method is commonly used to control the temperature. A heating element, which is a long strip of material that acts as a resistor, is used to power heated seats. A resistor is a device that blocks the flow of electricity. When electricity passes through it, the energy is converted to heat, which then passes through the seat and warms the riderThe heater can be turned on by the system. The temperature sensor keeps track of the temperature and sends the analogue value to the microcontroller. The microprocessor interprets the temperature sensor's analogue input and outputs a temperature reading via serial connection. The actions of the control system are totally controlled by an Atmega328 microprocessor. In this project the work is illustrated using SimulIDE software simulation and the functionality of the heat control system is coded in embedded C.
+## High Level Requirements:
+| ID | Description |
+|------| ------| 
+| HLR1 | Make sure that the temperature sensor is working properly.|
+|HLR2  | Examine the temperature value|
+|HLR3  |When a person sits in the seat, the heater will automatically turn on. |	
+|HLR4  |The first LED illuminates when the both switches are closed, signalling that heater has been activated. |
+## Low Level Requirements:
+| ID | Description | 
+|-------|------|
+| LLR1 |Analyze that the coolant level is low or not.| 
+| LLR2 | Examine that power supply is running through system  |
+| LLR3 | Check the temperature is  display on the the serial monitor.| 
+| LLR4 | Check all functions working properly in system.| 
+ 
+
 # **Research:**
 
 Seat warmers were first introduced by Cadillac in 1966 to help with backaches. Some vehicles come with car seat warmers, which heat up the seat with the push of a button. Normally the buttons are located on the side of the driver and passenger door. In some vehicles, just the bottom of the seat warms up, where in others both the bottom and back warm up.
+
+ 
 
 # **Benefits:**
 
@@ -27,23 +45,7 @@ Heated seats can make cars much more comfortable in the winter, or for those who
 - VS Code
 
 
-## Details requirements
-### High Level Requirements:
-| ID | Description | Status |
-|------| ------| ------|
-| HLR1 | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. | Implemented
-|HLR2  | Next the analog input from the temperature sensor is received and digitized.| Implemented
-|HLR3  | The hard disk must be 4 GB . |	Implemented
-|HLR4  | The web browser must be Microsoft Internet Explorer with a resolution of at least 800 \* 600. |	Implemented
 
-#### Low Level Requirements:
-
-| ID | Description | Status |
-|-------|------|------|
-| LLR1 | The digitized temperature input is visualized using Pulse Width Modulation.| Implemented 
-| LLR2 | The system runs effectively on Windows 2000 server but it will also run equally well on compatible operating systems.  | Implemented
-| LLR3 | The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.| Implemented 
- 
 # **SWOT Analysis:**
 
 **Strength:**
