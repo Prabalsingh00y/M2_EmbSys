@@ -1,6 +1,6 @@
 PROJ_NAME = SeatHeating
 
-BUILD_DIR = Build
+BUILD_DIR = Files
 
 SRC = src/MAIN.c\
 src/CASE_1.c\
