@@ -17,7 +17,4 @@ jobs:
       run: sudo apt-get install gcc-avr binutils-avr avr-libc
     - name: Compile
       run: make -C Project/2_Implementation
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+
