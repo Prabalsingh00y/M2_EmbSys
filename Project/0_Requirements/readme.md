@@ -34,63 +34,45 @@ The device generates an analogue signal that is directly proportional to the tem
 Liquid Crystal Display (LCD) is an electronic device, which is frequently used in many applications for displaying the information in a text or image format. It is a type of flat panel display which uses liquid crystals in its primary form of operation. LEDs have a large and varying set of use cases for consumers and businesses
 ## LED (Light-emitting diode) 
 The lighting emitting diode is a p-n junction diode. It is a specially doped diode and made up of a special type of semiconductors. When the light emits in the forward biased, then it is called a light-emitting diode.
-# **Research:**
-
-Seat warmers were first introduced by Cadillac in 1966 to help with backaches. Some vehicles come with car seat warmers, which heat up the seat with the push of a button. Normally the buttons are located on the side of the driver and passenger door. In some vehicles, just the bottom of the seat warms up, where in others both the bottom and back warm up.
-
- 
-
-# **Benefits:**
-
-Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car’s seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
-
-
 ## Software used
-
-- SimulIDE
-
-- GCC Compiler for AVR
-
-- VS Code
-
-
-
-# **SWOT Analysis:**
-
-**Strength:**
-
-The advantage of such devices is that you can not wait until the entire salon warms up, and immediately go on business. After all, heating has a local effect, so they do their job in 2-5 minutes.
-
-**Weakness:**
-- If you do not follow the recommendations and go too far with the temperature, this can lead to a decrease in the driver’s attentiveness, cause fatigue and headaches, and also increase the risk of catching a cold due to a violation of the body’s temperature regime.
-- the power cord is plugged in only after you fix the cape;
-- if you spill any liquid on the heater cover, immediately turn off the device;
-- if you leave the car, do not leave the device turned on;
-- you can not wash the capes, iron, maximum-shake;
-- Use dry bags to store the heater.
-
-**Opportunities:**
-
-The advanced technologies in automotive seat heaters are predicted to increase the growth of the market in the review period. The latest features like modern seat heaters like consistent and controlled warmth, heating level adjustment are attracting the consumers and are expected to propel the market growth. Growing demand for comfort and energy capabilities in vehicles is accelerating market growth.
-
-**Threats:**
-- A lack of regulation for these seats has left consumers more open to injuries.
-- Within 10 minutes at 120 degrees an individual can experience third-degree burns. For those with the inability to feel the temperature at the time, this can prove even more dangerous. Those who have been diagnosed with conditions such as paralysis, diabetes, and neuropathy are less like to feel the heat in their lower extremities.
-- High electrical resistance could cause the heater pad in the seat to overheat.
-
-# **4W and 1H:**
-
-**What:**
-Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car's seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
-
-**When:**
-Heated front seats not only offer luxurious comfort, relaxation and benefits for physical health, but also increase safety. Heating seats and backrests ensures a high level of well-being and prevents a cramped posture. Winter clothes limiting freedom of movement can be dispensed with. This also results in better operation of the restraint system by reducing the slack in safety belts. People with back or kidney problems benefit from a possible reduction of pain. It is mostly used in cars.
-
-**Where:**
-In car seats
-
-**Why:**
-Heated seats can bring a lot of different benefits beyond just having a nice and warm place to sit. The single greatest benefit that heated seats can bring is the therapeutic warmth it offers. This is great for older drivers or people with a few aches and pains.
-
-**How:**
-The longer the seat cushion stays on, the hotter it gets. If it were to stay on for too long, it would get hot enough to become uncomfortable or even dangerous to sit in. It could even start a fire in the cushion. To prevent this, most car seat heaters have a thermostat. The thermostat measures the temperature in the cushion. When it reaches a certain temperature, the thermostat sends a signal, automatically turning off the relay until the seat cools down a bit. At that point, the thermostat turns the relay back on again. Many seat cushions also have “high” and “low” settings that let the driver control the temperature of the seat cushions.
+ -  SimulIDE
+ -  GCC Compiler for AVR
+ -  VS Code
+## Research:
+The design of a seat heating system is more complex and sophisticated than one might expect. Seat heating systems today are significantly more complex than simple heating components found in blankets and cushions used in the home. Cadillac first offered seat warmers in 1966 to deal alleviate backaches. Car seat warmers, which heat up the seat at the push of a button, are available in some automobiles. The buttons are usually found on the side of the driver's and passenger's doors. Only the bottom of the seat heats up in some vehicles, whereas the bottom and back warm up in others. Heated seats, sometimes known as seat heaters, were once only seen in luxury or high-end vehicles; however, heated seat systems are now used in a wide range of vehicle classes. Many vehicle models have it as an option or as part of a winter package. Furthermore, several electric car manufacturers include it as a standard feature in their vehicles. Seat heaters are offered as an internal device built into the seat, often known as a heated seat, or as an external device in the form of a pad or cushion. External systems are sold as kits in the independent aftermarket.The entire market for automobile seat warmer will benefit from rising sales of passenger cars with seat heaters. Additionally, owners whose vehicles do not come equipped with a seat heater opt to install it aftermarket, benefiting seat heater aftermarket sales.
+## SWOT Analysis:
+### Strength
+ -  Through thermostat sensor seat can be easily heated.
+ -  It is very useful in winter for driving .
+ -  If you spill any liquid on the heater cover, it  immediately turn off the device.
+ -  In winter it takes ony few minutes to wrm the seat and car.
+### Weakness:
+ -  If it is excessive use it is harmful for body.
+ -  Do not spill liquid material or wash  on seats.
+ -  For this the investment is so high.
+###  Opportunities:
+ -  In market, the growth of this system is increased.
+ -  It is very demanding to consumers specially in cars.
+###  Threats:
+ -  In this system there is high electrical resistance which  cause the heater pad overheat.
+ -  Sometime overheating may an issue.
+ -  It produces EMF radiation which is dangoreous for health.
+## 4W and 1H:
+## What:
+Heating the seat may make a car considerably more comfortable in the winter. Heating mechanism that raises the temperature of the automated seat's surface to the occupants' comfort. The car's seat warmer is close to your body allowing you to warm up faster.
+##  When:
+A heated seat is very beneficial in the winter. If you like early morning drive in winters, the early morning trip to work may be unbearably cold and uncomfortable, especially if you must sit in a freezing driver's seat.So,this feature not only offer luxurious comfort, relaxation and benefits for physical health, but also increase safety.
+## Where:
+Speciallyit is used in car seats. Many heated vehicle seat coverings have a temperature-control system that allows drivers to set a high or low temperature, and the heat can be turned off when the seats are not in use.
+## Why:
+It is so useful because it heats the seat and makes it more comfortable for both the driver and the passenger, it is great for that people or those who live in cold locations.
+## How:
+The longer the seat cushion is in place, the hotter it becomes. If it was left on for an extended period of time, it would get hot enough to be unpleasant or even hazardous to sit in. It has the potential to spark a fire in the cushion. Most vehicle seat warmers contain a thermostat to avoid this. The temperature in the cushion is measured by the thermostat. When it reaches a particular temperature, the thermostat transmits a signal, which automatically turns off the relay until the seat cools off somewhat. At that point, the thermostat reactivates the relay. Many seat cushions also include "high" and "low" temperature settings, allowing the driver to regulate the warmth of the seat cushions.
+ ## Functionality
+- When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
+- Next the analog input from the temperature sensor is received and digitized.
+- The digitized temperature input is visualized using Pulse Width Modulation.
+- The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.
+## Benefits
+ -  Seats that employ a single component to heat and cool the seat are a novel feature. Because of the system's intricacy, all functions are computer controlled. This implies that diagnostics and repairs are more comprehensive. This, however, implies that DTCs may be set if there are any faults. To get these error codes and identify any problems, a scan tool will be necessary.
+ -  Heated seats may make automobiles much more pleasant in the winter or for individuals who get chilly easily even in the summer. Most vehicles' heaters work well, but the seat warmer in the car is closer to your body, allowing you to warm up faster. In rare circumstances, the seat warms up faster than the rest of the car.
