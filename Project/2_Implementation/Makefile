@@ -8,7 +8,7 @@ src/CASE_2.c\
 src/CASE_3.c\
 src/CASE_4.c\
 
-TEST_SR=Unity/unity.c\
+TEST_SRC=Unity/unity.c\
 
 
 OBJCOPY = avr-objcopy.exe
@@ -18,9 +18,7 @@ AVRDUDE := avrdude
 #Options for HEX file generation
 HFLAGS = -j .text -j .data -O ihex
 
-# All header file paths
 INC = -I inc
-
 
 ifdef OS	
    RM = del /q
@@ -29,7 +27,7 @@ ifdef OS
    CC = avr-gcc.exe
    # Name of the elf to hex file converter used
    AVR_OBJ_CPY = avr-objcopy.exe
-else #All configurations for Linux OS
+else
    ifeq ($(shell uname), Linux)
       RM = rm -rf				
 	  # Correct the path based on OS
@@ -54,6 +52,12 @@ hex: $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
 $(BUILD_DIR):
 	# Create directory to store the built files
 	mkdir $(BUILD_DIR)
+
+build_test : 
+	gcc $(TEST_SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm	
+run_test : build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
 
 analysis: $(SRC)
 	#Analyse the code using Cppcheck command line utility
