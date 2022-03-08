@@ -1,4 +1,4 @@
-# Temperature Sensor Interfacing with AVR 
+# Seat Heating System
 ## Folder Structure
 |Table of Content|Description|
 |:-:|:--:|
@@ -8,85 +8,94 @@
 |3_TestPlanAndOutput|Documents with test plans and procedures|
 |4_Report|Attach Report with all the scope of work|
 |5_ImagesAndVideos|All images related to the programming|
-## Abstract
-Temperature is the number assigned to an object to indicate its warmth. The concept of temperature came about because people wanted to quantify and measure differences in warmth. When an object with a higher temperature comes in contact with a cooler object, a transfer of heat occurs until the two objects are the same temperature. When the heat transfer is complete, it can be said that that the two objects are in thermal equilibrium. Temperature can hence be defined as the quantity of warmth that is the same for two or more objects that are in thermal equilibrium. The temperature 0°C, 273.16 K (kelvin), is the point at which ice, water, and water vapor are all present and in thermal equilibrium.  During the invention of this thermometer some facts were not in place which lead to their disadvantages and with the aid of technology advancement digital thermometer came into existence. Digital thermometer brings together the likes of microcontroller to be interfaced with Lm35 temperature sensor all together working with an embedded C programming language. In advancement in technology, digital thermometer can be added to home automation utilizes, IOT service for medical records, industrial jobs and many more.
-## Introduction
-A temperature sensor is a device, typically, a thermocouple or resistance temperature detector, that provides temperature measurement in a readable form through an electrical signal.A thermometer is the most basic form of a temperature meter that is used to measure the degree of hotness and coolness.Temperature meters are used in the geotechnical field to monitor concrete, structures, soil, water, bridges etc. for structural changes in them due to seasonal variations.A thermocouple (T/C) is made from two dissimilar metals that generate an electrical voltage in direct proportion with the change in temperature. An RTD (Resistance Temperature Detector) is a variable resistor that changes its electrical resistance in direct proportion with the change in the temperature in a precise, repeatable and nearly linear manner.
-## Working of Temperature Sensor
-The voltage across the diode terminals is the primary working mechanism of temperature sensors. When the voltage rises, the temperature rises as well, resulting in a voltage drop between the base and emitter transistor terminals of a diode.
-## Components Required 
-  - ATMEGA 32 Microcontroller
-  - LCD16x2 Display
-  - LM35 Temperature Sensor
-  - Rest Switch 
-  - Resistor
-  - Voltage
-  ## Lets describe  components below
- ## ATMEGA 16 Microcontroller
-  - In this project, we will learn How to interface a LM35 temperature sensor with AVR ATmega16 microcontroller and LED display. Here, we will measure the temperature of the surrounding or any other material to which the LM35 temperature sensor is connected for its temperature measurement and we will display the temperature value in degree centigrade in 1X8 LED array. But, the output of LM35 temperature sensor is analog in nature and microcontroller cannot process the analog signal directly. So, first it will convert the analog output of LM35 temperature sensor to digital values using its analog to digital converter and then it process the digital value to convert the digital value in degree centigrade value. Then the microcontroller will display the temperature in degree centigrade in the 1X8 LED array. Now, lit a match stick or lighter near the LM35 temperature sensor and see the changes in its output value in the 1X8 LED array.
- - PIN Diagram - 
- - ![Screenshot ATmega](https://user-images.githubusercontent.com/98878562/155843057-9b71ee85-a641-4871-8e35-cdb0de2c11b6.png)
- ## LCD16x2 Display
- A 16x2 LCD means it can display 16 characters per line and there are 2 such lines. In this LCD each character is displayed in 5x7 pixel matrix. The 16 x 2 intelligent alphanumeric dot matrix display is capable of displaying 224 different characters and symbols. This LCD has two registers, namely, Command and Data.It displays the temperature 
- ## Sensor
-   # LM35-
-   LM35 is a temperature sensor that can measure temperature in the range of -55°C to 150°C.
--   It is a 3-terminal device that provides an analog voltage proportional to the temperature. The higher the temperature, the higher is the output voltage.
--   The output analog voltage can be converted to digital form using ADC so that a microcontroller can process it.
--   LM35 is a precession Integrated circuit Temperature sensor, whose output voltage varies, based  on the temperature around it.
-## LM35 Sensor Features
--   It is used to Calculate the Temperature
--   Start by building the circuit. 
--   In the circuit, ensure you connect GND to the ground, then power LM35 VCC with +5 operating voltage (Vs). 
--   Thirdly, connect the VOUT to an ADC input (Analog-to-Digital Converter). After which you proceed by sampling the reading from ADC of the output voltage (VOUT). 
--   Finally, finish by converting the output voltage to temperature.   
--   It Can measure temperature ranging from -55°C to 150°C 
--   Low cost temperature sensor
--   Small and hence suitable for remote application.
-   ## Pin Description
-![LM35 Pinout](https://user-images.githubusercontent.com/98877997/155834037-37e7b047-84a7-40e5-8b96-161c9b48a0bb.png)
--   VCC: Supply Voltage (4V – 30V)
--   Out: It gives analog output voltage which is proportional to the temperature (in degree Celsius).
--   GND: Ground
- ## Circuit Diagram
-![ATmega16 LM35 Interface](https://user-images.githubusercontent.com/98877997/155834375-372f961a-6834-4faa-831c-3699c88823ee.png)
-## Block Diagram
-![Untitled Diagram (1)](https://user-images.githubusercontent.com/98878562/155874806-6dd44e95-01c5-4ac5-b6a8-cb6d2240f1aa.jpg)
-
-   
- 
-## High Level Requirement
--   To view list of functions.
--   To select the operation which user want to perform in their account.
--   To perform the selected operation that the user had choosen.
--   To get the required result by system  as per the user.
-## Low Level Requirement
--   To give input to system.
--   To add an account of the user 
--   To get the details of the customer to perform several functions.
--   ## SWOT Analysis
-|Strength|Weakness|Opportunities|Threats|
-|:--:|:--:|:--:|:--:|
-|||||
-|||||
-|||||
-|||||
-|||||
-## 4W's 1-H
-## What-
-## Where-
-## Who-
-## When-
-## Why-
-## How-
-
-
-## References
+## Introduction:
+The Seat heating method is commonly used to control the temperature. A heating element, which is a long strip of material that acts as a resistor, is used to power heated seats. A resistor is a device that blocks the flow of electricity. When electricity passes through it, the energy is converted to heat, which then passes through the seat and warms the riderThe heater can be turned on by the system. The temperature sensor keeps track of the temperature and sends the analogue value to the microcontroller. The microprocessor interprets the temperature sensor's analogue input and outputs a temperature reading via serial connection. The actions of the control system are totally controlled by an Atmega328 microprocessor. In this project the work is illustrated using SimulIDE software simulation and the functionality of the heat control system is coded in embedded C.
+## Research:
+The design of a seat heating system is more complex and sophisticated than one might expect. Seat heating systems today are significantly more complex than simple heating components found in blankets and cushions used in the home. Cadillac first offered seat warmers in 1966 to deal alleviate backaches. Car seat warmers, which heat up the seat at the push of a button, are available in some automobiles. The buttons are usually found on the side of the driver's and passenger's doors. Only the bottom of the seat heats up in some vehicles, whereas the bottom and back warm up in others. Heated seats, sometimes known as seat heaters, were once only seen in luxury or high-end vehicles; however, heated seat systems are now used in a wide range of vehicle classes. Many vehicle models have it as an option or as part of a winter package. Furthermore, several electric car manufacturers include it as a standard feature in their vehicles. Seat heaters are offered as an internal device built into the seat, often known as a heated seat, or as an external device in the form of a pad or cushion. External systems are sold as kits in the independent aftermarket.The entire market for automobile seat warmer will benefit from rising sales of passenger cars with seat heaters. Additionally, owners whose vehicles do not come equipped with a seat heater opt to install it aftermarket, benefiting seat heater aftermarket sales.
+## Components used
+### ATMEGA 328-
+  - ATmega328 is an Advanced Virtual RISC (AVR) microcontroller. It supports 8-bit data processing. ATmega-328 has 32KB internal flash memory. Atmel's ATmega328 is a single-chip microcontroller that belongs to the megaAVR series. It is powered by an 8-bit Atmel AVR CPU and has flash memory and a variety of peripherals. The controllers can work on their own after programming, as long as they have electricity and a quartz crystal with a high clock speed.
+### Pin Diagram
+![Screenshot (356)](https://user-images.githubusercontent.com/98878562/157198470-22759cb3-7292-44e4-b810-27f7497f9fc0.png)
+## Temperature Sensor
+ - A temperature sensor is a device that measures the temperature of an object. This can be the temperature of the air, the temperature of a liquid, or the temperature of a solid. Temperature sensors come in a variety of shapes and sizes, and they all monitor temperature using different technologies and principles.
+- The coolness or hotness of an entity is measured by the temperature sensor. The voltage read across the diode is what makes the sensor work. When the voltage is increased, the temperature rises and the voltage between the emitter and base transistor terminals decreases. The sensor saves that information.
+The device generates an analogue signal that is directly proportional to the temperature if the difference in voltage is amplified.
+## Thermostat
+ -  A thermostat sensor is a component in central AC systems that is designed to measure the ambient air temperature. It works in conjunction with a thermostat to provide control over your temperature and it is a regulating device component which senses the temperature of a physical system and performs actions so that the system's temperature is maintained near a desired setpoint. To maintain the proper temperature, a thermostat switches heating or cooling devices on or off, or regulates the flow of a heat transfer fluid as needed. In applications ranging from ambient air management to automobile coolant control, a thermostat is frequently the primary control device for a heating or cooling system. Any device or system that heats or cools to a setpoint temperature uses a thermostat.his device to detect temperature changes for the purpose of maintaining the temperature of an enclosed area essentially constant.
+ - To maintain the proper temperature, a thermostat switches heating or cooling devices on or off, or regulates the flow of a heat transfer fluid as needed. In applications ranging from ambient air management to automobile coolant control, a thermostat is frequently the primary control device for a heating or cooling system. Any device or system that heats or cools to a setpoint temperature uses a thermostat.
+ ## Heater core
+ A heater core is a radiator-like device used to heat a vehicle's cabin. Hot coolant from the vehicle's engine is routed through the core's winding tube, which acts as a heat exchanger between the coolant and the cabin air. Fins attached to the core tubes increase the surface area for heat transfer to air forced past them by a fan, thus heating the passenger compartment. Device may use a heater core , where different amounts of coolant flow through the heater core on either side to obtain the desired heating.
+## LCD ( liquid crystal display)
+Liquid Crystal Display (LCD) is an electronic device, which is frequently used in many applications for displaying the information in a text or image format. It is a type of flat panel display which uses liquid crystals in its primary form of operation. LEDs have a large and varying set of use cases for consumers and businesses
+## LED (Light-emitting diode) 
+The lighting emitting diode is a p-n junction diode. It is a specially doped diode and made up of a special type of semiconductors. When the light emits in the forward biased, then it is called a light-emitting diode.
+## Software used
+ -  SimulIDE
+ -  GCC Compiler for AVR
+ -  VS Code
+## Diagram
+### Block diagram
+![Untitled Diagram (3)](https://user-images.githubusercontent.com/98878562/157247932-77d6eee0-bb4d-4d2b-b994-35d98804d4c7.jpg)
+### Flowchart
+![FC](https://user-images.githubusercontent.com/98878562/157248447-38aed9de-2b5c-42a0-89b0-6bb489c2c1f3.png)
+## Requirements
+### High Level Requirements:
+| ID | Description |
+|------| ------| 
+| HLR1 | Make sure that the temperature sensor is working properly.|
+|HLR2  | Examine the temperature value|
+|HLR3  |When a person sits in the seat, the heater will automatically turn on. |	
+|HLR4  |The first LED illuminates when the both switches are closed, signalling that heater has been activated. |
+### Low Level Requirements:
+| ID | Description | 
+|-------|------|
+| LLR1 |Analyze that the coolant level is low or not.| 
+| LLR2 | Examine that power supply is running through system  |
+| LLR3 | Check the temperature is  display on the the serial monitor.| 
+| LLR4 | Check all functions working properly in system.| 
+## SWOT Analysis:
+### Strength
+ -  Through thermostat sensor seat can be easily heated.
+ -  It is very useful in winter for driving .
+ -  If you spill any liquid on the heater cover, it  immediately turn off the device.
+ -  In winter it takes ony few minutes to wrm the seat and car.
+### Weakness:
+ -  If it is excessive use it is harmful for body.
+ -  Do not spill liquid material or wash  on seats.
+ -  For this the investment is so high.
+###  Opportunities:
+ -  In market, the growth of this system is increased.
+ -  It is very demanding to consumers specially in cars.
+###  Threats:
+ -  In this system there is high electrical resistance which  cause the heater pad overheat.
+ -  Sometime overheating may an issue.
+ -  It produces EMF radiation which is dangoreous for health.
+  ## Functionality
+- When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
+- Next the analog input from the temperature sensor is received and digitized.
+- The digitized temperature input is visualized using Pulse Width Modulation.
+- The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.
+## Benefits
+ -  Seats that employ a single component to heat and cool the seat are a novel feature. Because of the system's intricacy, all functions are computer controlled. This implies that diagnostics and repairs are more comprehensive. This, however, implies that DTCs may be set if there are any faults. To get these error codes and identify any problems, a scan tool will be necessary.
+ -  Heated seats may make automobiles much more pleasant in the winter or for individuals who get chilly easily even in the summer. Most vehicles' heaters work well, but the seat warmer in the car is closer to your body, allowing you to warm up faster. In rare circumstances, the seat warms up faster than the rest of the car.
+## 4W and 1H:
+## What:
+Heating the seat may make a car considerably more comfortable in the winter. Heating mechanism that raises the temperature of the automated seat's surface to the occupants' comfort. The car's seat warmer is close to your body allowing you to warm up faster.
+##  When:
+A heated seat is very beneficial in the winter. If you like early morning drive in winters, the early morning trip to work may be unbearably cold and uncomfortable, especially if you must sit in a freezing driver's seat.So,this feature not only offer luxurious comfort, relaxation and benefits for physical health, but also increase safety.
+## Where:
+Speciallyit is used in car seats. Many heated vehicle seat coverings have a temperature-control system that allows drivers to set a high or low temperature, and the heat can be turned off when the seats are not in use.
+## Why:
+It is so useful because it heats the seat and makes it more comfortable for both the driver and the passenger, it is great for that people or those who live in cold locations.
+## How:
+The longer the seat cushion is in place, the hotter it becomes. If it was left on for an extended period of time, it would get hot enough to be unpleasant or even hazardous to sit in. It has the potential to spark a fire in the cushion. Most vehicle seat warmers contain a thermostat to avoid this. The temperature in the cushion is measured by the thermostat. When it reaches a particular temperature, the thermostat transmits a signal, which automatically turns off the relay until the seat cools off somewhat. At that point, the thermostat reactivates the relay. Many seat cushions also include "high" and "low" temperature settings, allowing the driver to regulate the warmth of the seat cushions.
+## Conclusion
+-  Heating seats are quite pleasant for those who live in colder areas, and they help both the driver and the passenger enjoy the winter journey. The heating system is especially beneficial to the elderly since it enhances physical comfort during lengthy journeys. This innovation is about a heated seat for automobiles, more especially a heated car seat for passenger vehicles. Automobile manufacturers frequently employ synthetic materials in the upholstery of car seats. Such textiles are rather chilly in cold climates, especially when the automobile is left outside for lengthy periods of time during the winter. In addition, the owner protects the fabric of the automobile seats with a plastic seat cover. The plastic covering adds to the passenger's discomfort. The heated chairs that have been available thus far have consumed a significant amount of power. This is a big disadvantage since automobiles have a limited supply of such energy.
+ ## References
 |S.No.|Links|
 |:-:|:--:|
-|1|[]()|
-|2|[]()|
-|3|[]()|
-|4|[]()|
-
-
+|1|[Bockman's Auto Care](https://www.bockmansautocare.com/)|
+|2|[Automotive Concepts](https://www.automotiveconceptsmd.com/)|
+|3|[Seat heating work](https://www.yourmechanic.com/article/how-a-car-s-heating-system-works)|
+|4|[Wikipedia](https://en.wikipedia.org/wiki/Heating_system#:~:text=A%20heating%20system%20is%20a%20mechanism%20for%20maintaining,may%20be%20a%20central%20heating%20system%20or%20distributed.)|
